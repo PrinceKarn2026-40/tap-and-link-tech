@@ -17,10 +17,10 @@
     }
 
     .nfc-card {
-      width: 856px;
-      height: 540px;
+      width: 85.6mm;
+      height: 54mm;
       background: #111;
-      border-radius: 24px;
+      border-radius: 4mm;
       position: relative;
       overflow: hidden;
       font-family: 'Georgia', serif;
@@ -78,44 +78,28 @@
       z-index: 3;
     }
 
-    .logo-circle {
-      width: 130px; height: 130px;
-      border: 2px solid #c9a84c;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      margin-bottom: 16px;
-    }
-    .logo-initials {
-      font-size: 48px;
-      font-weight: 900;
-      color: #c9a84c;
-      letter-spacing: -2px;
-    }
-    .wifi-waves {
-      position: absolute;
-      top: -4px; right: -14px;
-      font-size: 28px;
-      color: #c9a84c;
+    .logo-img {
+      width: 18mm;
+      height: 18mm;
+      object-fit: contain;
+      margin-bottom: 2mm;
     }
 
     .brand-name {
-      font-size: 52px;
+      font-size: 6mm;
       font-weight: 800;
       color: #c9a84c;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       text-align: center;
       line-height: 1;
-      margin-bottom: 10px;
+      margin-bottom: 1mm;
     }
 
     .gold-line {
       width: 85%;
-      height: 1px;
+      height: 0.3mm;
       background: linear-gradient(90deg, transparent, #c9a84c, transparent);
-      margin: 8px 0;
+      margin: 1mm 0;
       position: relative;
       display: flex;
       align-items: center;
@@ -124,7 +108,7 @@
     .gold-line::before, .gold-line::after {
       content: '';
       flex: 1;
-      height: 1px;
+      height: 0.3mm;
       background: linear-gradient(90deg, transparent, #c9a84c);
     }
     .gold-line::after {
@@ -132,43 +116,43 @@
     }
     .diamond {
       color: #c9a84c;
-      font-size: 10px;
-      padding: 0 8px;
+      font-size: 2mm;
+      padding: 0 1mm;
     }
 
     .tagline {
-      font-size: 16px;
+      font-size: 2mm;
       color: rgba(201,168,76,0.65);
-      letter-spacing: 4px;
+      letter-spacing: 2px;
       text-transform: uppercase;
       text-align: center;
-      margin-top: 4px;
+      margin-top: 0.5mm;
     }
 
     .card-bottom-left {
       position: absolute;
-      bottom: 24px; left: 32px;
+      bottom: 2.5mm; left: 3mm;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 1mm;
       z-index: 3;
     }
-    .card-bottom-left i { font-size: 16px; color: #c9a84c; }
-    .card-bottom-left span { font-size: 15px; color: rgba(201,168,76,0.6); }
+    .card-bottom-left i { font-size: 2mm; color: #c9a84c; }
+    .card-bottom-left span { font-size: 1.8mm; color: rgba(201,168,76,0.6); }
 
     /* NFC badge top right */
     .nfc-badge-wrap {
       position: absolute;
-      top: 24px; right: 24px;
+      top: 2.5mm; right: 2.5mm;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 4px;
+      gap: 0.5mm;
       z-index: 4;
     }
     .nfc-badge {
-      width: 80px; height: 80px;
-      border: 2px solid #c9a84c;
+      width: 10mm; height: 10mm;
+      border: 1.5px solid #c9a84c;
       border-radius: 50%;
       display: flex;
       flex-direction: column;
@@ -176,35 +160,35 @@
       justify-content: center;
       background: rgba(201,168,76,0.05);
     }
-    .nfc-badge i { font-size: 22px; color: #c9a84c; }
-    .nfc-badge b { font-size: 14px; color: #c9a84c; font-weight: 900; letter-spacing: 1px; }
-    .tap-text { font-size: 11px; color: rgba(201,168,76,0.55); letter-spacing: 1px; text-align: center; }
+    .nfc-badge i { font-size: 3mm; color: #c9a84c; }
+    .nfc-badge b { font-size: 2mm; color: #c9a84c; font-weight: 900; letter-spacing: 1px; }
+    .tap-text { font-size: 1.3mm; color: rgba(201,168,76,0.55); letter-spacing: 0.5px; text-align: center; }
 
     /* QR code bottom right */
     .card-qr {
       position: absolute;
-      bottom: 20px; right: 20px;
+      bottom: 2mm; right: 2mm;
       z-index: 4;
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 4px;
+      gap: 0.5mm;
     }
     .qr-border {
-      border: 2px solid #c9a84c;
-      padding: 6px;
-      border-radius: 4px;
+      border: 1.5px solid #c9a84c;
+      padding: 1mm;
+      border-radius: 1mm;
       background: #111;
     }
     .qr-border canvas, .qr-border img {
       display: block;
-      width: 110px !important;
-      height: 110px !important;
+      width: 13mm !important;
+      height: 13mm !important;
     }
     .scan-me {
-      font-size: 11px;
+      font-size: 1.3mm;
       color: rgba(201,168,76,0.6);
-      letter-spacing: 3px;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
     }
   </style>
@@ -237,10 +221,7 @@
             <div class="glow"></div>
 
             <div class="card-left">
-              <div class="logo-circle">
-                <span class="logo-initials">TL</span>
-                <i class="bi bi-wifi wifi-waves"></i>
-              </div>
+              <img src="../images/logo.png" class="logo-img" alt="TAP&LINK logo" />
               <div class="brand-name">TAP&amp;LINK.tech</div>
               <div class="gold-line"><span class="diamond">✦</span></div>
               <div class="tagline">ONE TAP. ENDLESS CONNECTION</div>
