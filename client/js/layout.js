@@ -7,7 +7,7 @@ const AdminLayout = {
       <aside class="sidebar" id="sidebar">
         <a href="dashboard.html" class="sidebar-brand">
           <div class="brand-icon"><i class="bi bi-credit-card-2-front"></i></div>
-          <span>Smart<br>Business Card</span>
+          <span>TAP&LINK<br>.tech</span>
         </a>
         <nav class="sidebar-nav">
           <div class="nav-section-label">Main</div>
@@ -19,6 +19,9 @@ const AdminLayout = {
           </a>
           <a href="analytics.html" class="sidebar-link">
             <i class="bi bi-bar-chart-line"></i> Analytics
+          </a>
+          <a href="card-sticker.html" class="sidebar-link">
+            <i class="bi bi-credit-card"></i> Card Sticker
           </a>
           <a href="settings.html" class="sidebar-link">
             <i class="bi bi-gear"></i> Settings
