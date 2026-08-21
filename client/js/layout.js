@@ -6,7 +6,7 @@ const AdminLayout = {
       <div class="sidebar-overlay" id="sidebarOverlay"></div>
       <aside class="sidebar" id="sidebar">
         <a href="dashboard.html" class="sidebar-brand">
-          <div class="brand-icon"><i class="bi bi-credit-card-2-front"></i></div>
+          <div class="brand-icon"><img src="../images/card-icon.png" style="width:36px;height:36px;border-radius:8px;object-fit:cover;"></div>
           <span>TAP&LINK<br>.tech</span>
         </a>
         <nav class="sidebar-nav">
