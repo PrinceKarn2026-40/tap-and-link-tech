@@ -10,6 +10,7 @@
   <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
   <style>
     @media print {
+      * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
       body * { visibility: hidden; }
       #printArea, #printArea * { visibility: visible; }
       #printArea {
