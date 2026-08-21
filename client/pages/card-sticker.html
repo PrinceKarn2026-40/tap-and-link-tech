@@ -232,12 +232,6 @@
               <div class="tap-text">TAP TO CONNECT</div>
             </div>
 
-            <div class="card-qr">
-              <div class="qr-border">
-                <div id="qrCode"></div>
-              </div>
-              <div class="scan-me">— SCAN ME —</div>
-            </div>
 
             <div class="card-bottom-left">
               <i class="bi bi-globe"></i>
@@ -249,14 +243,6 @@
     </div>
   `;
 
-  new QRCode(document.getElementById('qrCode'), {
-    text: 'https://tapandlink.tech',
-    width: 110,
-    height: 110,
-    colorDark: '#c9a84c',
-    colorLight: '#111111',
-    correctLevel: QRCode.CorrectLevel.M,
-  });
   </script>
 </body>
 </html>
