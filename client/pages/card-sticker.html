@@ -12,8 +12,14 @@
     @media print {
       body * { visibility: hidden; }
       #printArea, #printArea * { visibility: visible; }
-      #printArea { position: fixed; top: 0; left: 0; }
-      .no-print { display: none !important; }
+      #printArea {
+        position: fixed;
+        top: 10mm;
+        left: 10mm;
+      }
+      .nfc-card {
+        box-shadow: none !important;
+      }
     }
 
     .nfc-card {
