@@ -24,7 +24,7 @@ const AdminLayout = {
             <i class="bi bi-credit-card"></i> Card Sticker
           </a>
           <a href="contact-sheet.html" class="sidebar-link">
-            <i class="bi bi-grid"></i> Contact Sheet
+            <i class="bi bi-file-earmark-text"></i> Worker Contract
           </a>
           <a href="settings.html" class="sidebar-link">
             <i class="bi bi-gear"></i> Settings
